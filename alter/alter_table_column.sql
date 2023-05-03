@@ -9,3 +9,6 @@ ALTER TABLE sales_item RENAME COLUMN day_of_week TO weekday;
 
 -- // Drop a column
 ALTER TABLE sales_item DROP COLUMN weekday;
+
+-- change table name
+ALTER TABLE transaction_type RENAME TO transaction;
