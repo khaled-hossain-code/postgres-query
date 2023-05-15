@@ -1,0 +1,6 @@
+CREATE OR REPLACE FUNCTION fn_add_ints(a INT, b INT)
+RETURNS INT AS 
+$body$
+  SELECT a + b;
+$body$ 
+LANGUAGE SQL;
